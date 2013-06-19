@@ -621,25 +621,15 @@
 		43EE8406165EAA70000997FB /* SyncPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43EE8008165EAA6E000997FB /* SyncPreferences.xib */; };
 		43F9A9411674D05900A9A8F9 /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BA97121663EA5000B95F35 /* libJSONKit.a */; };
 		43F9A9811674DBA000A9A8F9 /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = EACB098114A0F01500F48809 /* GTMOAuth2Window.xib */; };
-		5740946716F5112B0087870F /* stylesMenuButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945316F5112B0087870F /* stylesMenuButtonSmall.tiff */; };
 		5740946816F5112B0087870F /* stylesMenuButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945416F5112B0087870F /* stylesMenuButtonSmall@2x.tiff */; };
-		5740946916F5112B0087870F /* skipFolderButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945516F5112B0087870F /* skipFolderButtonSmall.tiff */; };
 		5740946A16F5112B0087870F /* skipFolderButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945616F5112B0087870F /* skipFolderButtonSmall@2x.tiff */; };
-		5740946B16F5112B0087870F /* refreshButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945716F5112B0087870F /* refreshButtonSmall.tiff */; };
 		5740946C16F5112B0087870F /* refreshButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945816F5112B0087870F /* refreshButtonSmall@2x.tiff */; };
-		5740946D16F5112B0087870F /* previousButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945916F5112B0087870F /* previousButtonSmall.tiff */; };
 		5740946E16F5112B0087870F /* previousButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945A16F5112B0087870F /* previousButtonSmall@2x.tiff */; };
-		5740946F16F5112B0087870F /* popupMenuButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945B16F5112B0087870F /* popupMenuButtonSmall.tiff */; };
 		5740947016F5112B0087870F /* popupMenuButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945C16F5112B0087870F /* popupMenuButtonSmall@2x.tiff */; };
-		5740947116F5112B0087870F /* nextButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945D16F5112B0087870F /* nextButtonSmall.tiff */; };
 		5740947216F5112B0087870F /* nextButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945E16F5112B0087870F /* nextButtonSmall@2x.tiff */; };
-		5740947316F5112B0087870F /* mailLinkButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740945F16F5112B0087870F /* mailLinkButtonSmall.tiff */; };
 		5740947416F5112B0087870F /* mailLinkButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946016F5112B0087870F /* mailLinkButtonSmall@2x.tiff */; };
-		5740947516F5112B0087870F /* getInfoButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946116F5112B0087870F /* getInfoButtonSmall.tiff */; };
 		5740947616F5112B0087870F /* getInfoButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946216F5112B0087870F /* getInfoButtonSmall@2x.tiff */; };
-		5740947716F5112B0087870F /* emptyTrashButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946316F5112B0087870F /* emptyTrashButtonSmall.tiff */; };
 		5740947816F5112B0087870F /* emptyTrashButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946416F5112B0087870F /* emptyTrashButtonSmall@2x.tiff */; };
-		5740947916F5112B0087870F /* cancelRefreshButtonSmall.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946516F5112B0087870F /* cancelRefreshButtonSmall.tiff */; };
 		5740947A16F5112B0087870F /* cancelRefreshButtonSmall@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5740946616F5112B0087870F /* cancelRefreshButtonSmall@2x.tiff */; };
 		5745979916E3DC4F00D8AE16 /* stylesMenuButton@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5745979816E3DC4F00D8AE16 /* stylesMenuButton@2x.tiff */; };
 		5749799A16E3D6A90021C8DE /* folderError@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5749799716E3D6A90021C8DE /* folderError@2x.tiff */; };
@@ -3616,7 +3606,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = uk.co.opencommunity;
 			};
 			buildConfigurationList = AA4F9AB60855422400C18279 /* Build configuration list for PBXProject "Vienna" */;
@@ -4292,25 +4282,15 @@
 				5745979916E3DC4F00D8AE16 /* stylesMenuButton@2x.tiff in Resources */,
 				575B229016EEB62D00CAC982 /* blankSmallButton@2x.tiff in Resources */,
 				575B229216EEB63F00CAC982 /* subscribeButtonSmall@2x.tiff in Resources */,
-				5740946716F5112B0087870F /* stylesMenuButtonSmall.tiff in Resources */,
 				5740946816F5112B0087870F /* stylesMenuButtonSmall@2x.tiff in Resources */,
-				5740946916F5112B0087870F /* skipFolderButtonSmall.tiff in Resources */,
 				5740946A16F5112B0087870F /* skipFolderButtonSmall@2x.tiff in Resources */,
-				5740946B16F5112B0087870F /* refreshButtonSmall.tiff in Resources */,
 				5740946C16F5112B0087870F /* refreshButtonSmall@2x.tiff in Resources */,
-				5740946D16F5112B0087870F /* previousButtonSmall.tiff in Resources */,
 				5740946E16F5112B0087870F /* previousButtonSmall@2x.tiff in Resources */,
-				5740946F16F5112B0087870F /* popupMenuButtonSmall.tiff in Resources */,
 				5740947016F5112B0087870F /* popupMenuButtonSmall@2x.tiff in Resources */,
-				5740947116F5112B0087870F /* nextButtonSmall.tiff in Resources */,
 				5740947216F5112B0087870F /* nextButtonSmall@2x.tiff in Resources */,
-				5740947316F5112B0087870F /* mailLinkButtonSmall.tiff in Resources */,
 				5740947416F5112B0087870F /* mailLinkButtonSmall@2x.tiff in Resources */,
-				5740947516F5112B0087870F /* getInfoButtonSmall.tiff in Resources */,
 				5740947616F5112B0087870F /* getInfoButtonSmall@2x.tiff in Resources */,
-				5740947716F5112B0087870F /* emptyTrashButtonSmall.tiff in Resources */,
 				5740947816F5112B0087870F /* emptyTrashButtonSmall@2x.tiff in Resources */,
-				5740947916F5112B0087870F /* cancelRefreshButtonSmall.tiff in Resources */,
 				5740947A16F5112B0087870F /* cancelRefreshButtonSmall@2x.tiff in Resources */,
 				57F7E2F116F534FE00D4702E /* vienna3plugin.icns in Resources */,
 				57F7E2F216F534FE00D4702E /* vienna3style.icns in Resources */,
@@ -8571,6 +8551,7 @@
 		430C4AD0166172BE0079C9FC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = Autorevision;
 			};
 			name = Development;
@@ -8578,6 +8559,7 @@
 		430C4AD1166172BE0079C9FC /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = Autorevision;
 			};
 			name = Deployment;
@@ -8585,6 +8567,7 @@
 		430C4AF81661F0860079C9FC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Code Sign ID";
 			};
 			name = Development;
@@ -8592,6 +8575,7 @@
 		430C4AF91661F0860079C9FC /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Code Sign ID";
 			};
 			name = Deployment;
@@ -8600,6 +8584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97BC16646BAA00B95F35 /* SQLiteLib-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Development;
 		};
@@ -8607,6 +8592,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97BB16646BAA00B95F35 /* SQLiteLib-Dep.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Deployment;
 		};
@@ -8614,6 +8600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97B01664677600B95F35 /* JSONKit-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Development;
 		};
@@ -8621,6 +8608,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97AF1664677600B95F35 /* JSONKit-Dep.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Deployment;
 		};
@@ -8628,6 +8616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97A616645E1D00B95F35 /* GTMHTTP-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Development;
 		};
@@ -8635,6 +8624,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97A516645E1D00B95F35 /* GTMHTTP-Dep.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Deployment;
 		};
@@ -8642,6 +8632,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA9808166483B900B95F35 /* GTMOAuth2-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Development;
 		};
@@ -8649,6 +8640,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA9807166483B900B95F35 /* GTMOAuth2-Dep.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Deployment;
 		};
@@ -8656,6 +8648,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97CF1664752A00B95F35 /* DisclosableView-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Development;
 		};
@@ -8663,6 +8656,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97CE1664752A00B95F35 /* DisclosableView-Dep.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Deployment;
 		};
@@ -8670,6 +8664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA978F166449E000B95F35 /* ASIHTTPRequest-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Development;
 		};
@@ -8677,6 +8672,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA978E166449E000B95F35 /* ASIHTTPRequest-Dep.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Deployment;
 		};
@@ -8684,6 +8680,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 432E5192165D65AF00A8640E /* Project-All.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = StaticAnalyzer;
 		};
@@ -8697,6 +8700,7 @@
 		43D4D6EE166FE08C00BA9675 /* StaticAnalyzer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = Autorevision;
 			};
 			name = StaticAnalyzer;
@@ -8704,6 +8708,7 @@
 		43D4D6EF166FE08C00BA9675 /* StaticAnalyzer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Code Sign ID";
 			};
 			name = StaticAnalyzer;
@@ -8712,6 +8717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA978F166449E000B95F35 /* ASIHTTPRequest-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = StaticAnalyzer;
 		};
@@ -8719,6 +8725,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97CF1664752A00B95F35 /* DisclosableView-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = StaticAnalyzer;
 		};
@@ -8726,6 +8733,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97A616645E1D00B95F35 /* GTMHTTP-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = StaticAnalyzer;
 		};
@@ -8733,6 +8741,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA9808166483B900B95F35 /* GTMOAuth2-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = StaticAnalyzer;
 		};
@@ -8740,6 +8749,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97B01664677600B95F35 /* JSONKit-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = StaticAnalyzer;
 		};
@@ -8747,12 +8757,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43BA97BC16646BAA00B95F35 /* SQLiteLib-Dev.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = StaticAnalyzer;
 		};
 		43D4D6F6166FE08C00BA9675 /* StaticAnalyzer */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Version Notes";
 			};
 			name = StaticAnalyzer;
@@ -8761,6 +8773,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 430C4B001661F3270079C9FC /* CS-ID.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Archive and Prep for Upload";
 			};
 			name = StaticAnalyzer;
@@ -8768,6 +8781,7 @@
 		52BA64020DE9E2FF0008B3E1 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Version Notes";
 			};
 			name = Development;
@@ -8775,6 +8789,7 @@
 		52BA64030DE9E2FF0008B3E1 /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Version Notes";
 			};
 			name = Deployment;
@@ -8797,6 +8812,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 432E5192165D65AF00A8640E /* Project-All.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Development;
 		};
@@ -8804,6 +8826,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 432E5192165D65AF00A8640E /* Project-All.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 			};
 			name = Deployment;
 		};
@@ -8811,6 +8840,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 430C4B001661F3270079C9FC /* CS-ID.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Archive and Prep for Upload";
 			};
 			name = Development;
@@ -8819,6 +8849,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 430C4B001661F3270079C9FC /* CS-ID.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "Archive and Prep for Upload";
 			};
 			name = Deployment;
